@@ -73,4 +73,4 @@ text
 4. **Essential-Only** - Removes tutorial-level details
 5. **Problem-Solving** - Directs to docs for complex issues
 
-
+## Video Footage of my project
