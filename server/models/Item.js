@@ -4,7 +4,7 @@ const itemSchema = new mongoose.Schema({
   name: String,
   quantity: Number,
   price: Number,
-  description: { type: String, default: "" }, // Add this
+  description: { type: String, default: "" }, 
   category: { type: String, default: "" }
 });
 
