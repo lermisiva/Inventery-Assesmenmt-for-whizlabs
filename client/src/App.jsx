@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
   const [items, setItems] = useState([]);
-  const [form, setForm] = useState({ name: "", quantity: 0, price: 0, description: "", category: "" });
+  const [form, setForm] = useState({ name: "", quantity: "", price: "", description: "", category: "" });
   const [editingId, setEditingId] = useState(null);
 
   const fetchItems = async () => {
