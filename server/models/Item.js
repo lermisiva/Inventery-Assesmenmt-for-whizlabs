@@ -4,6 +4,8 @@ const itemSchema = new mongoose.Schema({
   name: String,
   quantity: Number,
   price: Number,
+  description: { type: String, default: "" }, // Add this
+  category: { type: String, default: "" }
 });
 
 module.exports = mongoose.model("Item", itemSchema);
