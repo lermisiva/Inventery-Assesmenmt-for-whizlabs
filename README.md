@@ -14,7 +14,7 @@ node app.js
 cd ../client && npm install
 npm start
 
-Key Features
+##Key Features
 Full CRUD Operations for inventory items
 
 Real-time updates with React state management
@@ -23,14 +23,14 @@ Data validation for quantity/price inputs
 
 Responsive UI built with Tailwind CSS
 
-API Reference
+##API Reference
 Endpoint	Method	Description
 /api/items	POST	Create new item
 /api/items	GET	Retrieve all items
 /api/items/:id	PUT	Update item by ID
 /api/items/:id	DELETE	Remove item by ID
 
-sample Request 
+##sample Request 
 fetch('/api/items', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
@@ -41,7 +41,7 @@ fetch('/api/items', {
   })
 })
 
-Project Structure
+##Project Structure
 text
 inventory-system/
 ├── client/           # React application
@@ -51,7 +51,7 @@ inventory-system/
     ├── models/       # Mongoose schemas
     ├── routes/       # API endpoints
     └── app.js        # Express server
-Troubleshooting
+##Troubleshooting
 Database not connecting?
 Verify MongoDB is running: mongod --version
 
@@ -61,7 +61,7 @@ Ensure app.use(cors()) is enabled in server/app.js
 Missing form data?
 Check network tab in DevTools for request payloads
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 text
